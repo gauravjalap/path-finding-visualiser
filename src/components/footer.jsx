@@ -6,11 +6,11 @@ const Footer = () => {
     <footer class="footer bg-dark py-3 mt-auto">
       <div class="container text-center">
         <span class="text-muted">
-          Made with ❤️ by Priyanshu Singh{" "}
-          <a href="https://github.com/priyanshudevsingh/">
+          Made with ❤️ by Gaurav Kumar{" "}
+          <a href="https://github.com/gauravjalap/">
             <FaGithub />
           </a>{" "}
-          <a href="https://www.linkedin.com/in/priyanshudevsingh/">
+          <a href="https://www.linkedin.com/in/heyiamgaurav/">
             <FaLinkedin />
           </a>
         </span>
