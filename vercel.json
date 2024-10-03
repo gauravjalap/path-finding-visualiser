@@ -2,13 +2,8 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "headers": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript"
-        }
-      ]
+      "source": "/assets/(.*)",
+      "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
     }
   ]
 }
