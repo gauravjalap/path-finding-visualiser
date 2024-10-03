@@ -2,11 +2,11 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "headers": [
     {
-      "source": "/assets/(.*)\\.(?:js|ts|tsx|jsx)$",
+      "source": "/assets/(.*)\\.(js|ts|tsx|jsx)$",
       "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
     },
     {
-      "source": "/assets/(.*)\\.css$",
+      "source": "/assets/(.*)\\.(css)$",
       "headers": [{ "key": "Content-Type", "value": "text/css" }]
     }
   ]
