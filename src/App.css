@@ -43,3 +43,14 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+  .App {
+    font-size: calc(8px + 2vmin);
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    font-size: calc(6px + 2vmin);
+  }
+}

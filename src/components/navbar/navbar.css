@@ -40,3 +40,32 @@
   display: inline-block;
   transform: translate(0, 3px);
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .wall,
+  .visited,
+  .nonvisited,
+  .path {
+    width: 15px;
+    height: 15px;
+  }
+
+  .icon {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wall,
+  .visited,
+  .nonvisited,
+  .path {
+    width: 10px;
+    height: 10px;
+  }
+
+  .icon {
+    margin-left: 3px;
+  }
+}

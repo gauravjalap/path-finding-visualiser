@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="https://github.com/gauravjalap/">
             <FaGithub />
           </a>{" "}
-          <a href="https://www.linkedin.com/in/heyiamgaurav/">
+          <a href="https://www.linkedin.com/in/gauravjalap/">
             <FaLinkedin />
           </a>
         </span>

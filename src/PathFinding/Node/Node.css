@@ -77,3 +77,18 @@
 .node-end {
   transform: translate(0, -1px);
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .node {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .node {
+    width: 15px;
+    height: 15px;
+  }
+}
